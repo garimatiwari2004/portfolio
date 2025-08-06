@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=' bg-gradient-to-t from-[#121313] to-[#19024f] flex flex-col items-center justify-center min-h-screen w-full'>
+      <h1 className='text-white text-7xl md:6xl font-extrabold'>New in the game - Not in the Grind</h1>
+      
     </div>
   );
 }
