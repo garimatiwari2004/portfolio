@@ -9,12 +9,11 @@ import { BioSection } from './components/biosection';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        
             <Navbar />
 
             <App />
             <BioSection />
 
-        </BrowserRouter>
     </React.StrictMode>
 );

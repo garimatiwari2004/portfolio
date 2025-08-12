@@ -5,7 +5,22 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      keyframes:{
+        fadeIn:{
+          "0% ": {opacity:'0'},
+          "100%": {opacity:'1'},
+
+        },
+        animation:{
+          fadeIn:'fadein 1s ease-in forwards',
+        }
+
+      },
+      fontFamily: {
+        caveat: ['Caveat','Poppins', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
