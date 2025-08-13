@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         caveat: ['Caveat','Poppins', 'sans-serif'],
          bebas: ['"Bebas Neue"', 'sans-serif'],
+          montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },

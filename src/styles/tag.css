@@ -5,14 +5,15 @@
 
     }50%{
         opacity: 0.5;
-         transform: translateY(50px) scaleY(1.2);
+         transform: translateY(-50px) ;
+         transition-timing-function: ease-in;
         
         
         
     }
     100%{
         opacity: 1;
-        transform: translateY(0) scaleY(1);
+        transform: translateY(0px) ;
        
     }
 }
