@@ -1,0 +1,29 @@
+@keyframes slideIn{
+    0%{
+        opacity: 0;
+        /* transform: translateY(100px) scaleY(2); */
+
+    }50%{
+        opacity: 0.5;
+         transform: translateY(50px) scaleY(1.2);
+        
+        
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0) scaleY(1);
+       
+    }
+}
+
+
+.tag{
+    animation-name: slideIn;
+    animation-duration: 2s;
+ 
+    animation-timing-function: ease-in;
+    text-shadow: 2px 2px red;
+
+}
+
