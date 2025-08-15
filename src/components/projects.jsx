@@ -77,7 +77,7 @@ const Project = () => {
             enables users to create topic-based rooms, engage in threaded
             conversations, and exchange knowledge efficiently
           </p>
-          <div className=" flex flex-wrap ">
+          <div className=" flex flex-wrap gap-2 ">
             <span className="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800">
               HTML
             </span>
