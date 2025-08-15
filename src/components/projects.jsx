@@ -7,6 +7,7 @@ import "../styles/project.css";
 import lakshai from "../assets/lakshai.png";
 import studybud from "../assets/studybud.png";
 import snapcycle from "../assets/snapcycle.png";
+import movierec from "../assets/movierec.png";
 
 
 const Project = () => {
@@ -136,11 +137,50 @@ const Project = () => {
             <span className="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800">
               TailwindCSS
             </span>
-
-           
           </div>
           <div className="overflow-hidden">
             <img src={snapcycle} alt="" />
+          </div>
+        </div>
+        <div className="border border-gray-500 px-4 pt-2  flex flex-col space-y-2 justify-between   h-full bg-gray-800 rounded-md    ">
+          <h2 className="text-2xl text-white font-bold font-bebas ">
+            {" "}
+            <a
+              href="https://github.com/garimatiwari2004/Movie-Recommender-System-Movierec"
+              className="inline-flex items-center gap-1 hover:text-yellow-400 transition hover:-translate-y-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Movie Recommender System
+              <ArrowUpRight size={20} />
+            </a>
+          </h2>
+          <p className="text-gray-400 font-sm font-poppins tracking-wide  ">
+            A movie recommendation system is an intelligent application that
+            suggests films to users based on their tastes, preferences, and
+            viewing history. It works by analyzing data such as user ratings,
+            watch history, and movie attributes like genre, cast, and director.
+            The system can use content-based filtering, which recommends movies
+            similar to those a user has already liked, collaborative filtering,
+            which finds patterns from the behavior of similar users, or a hybrid
+            approach that combines both methods for improved accuracy.
+          </p>
+          <div className=" flex gap-2 flex-wrap ">
+            <span className="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800">
+              Python
+            </span>
+            <span className="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800">
+              NumPy
+            </span>
+            <span className="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800">
+              Scikit-Learn
+            </span>
+            <span className="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800">
+              Matplotlib
+            </span>
+          </div>
+          <div className="overflow-hidden">
+            <img src={movierec} alt="" />
           </div>
         </div>
       </div>
