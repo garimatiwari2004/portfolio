@@ -9,11 +9,12 @@ import javascript from "../assets/javascript.png";
 
 
 
+
 const Techstack=()=>{
     return(
-        <div className="w-full  bg-white p-4 ">
+        <div className=" tech w-full bg-white my-16 py-20  ">
     
-        <div className="container mx-auto  min-h-screen space-y-6 flex flex-col items-center w-full  ">
+        <div className="container mx-auto flex justify-center items-center max-h-screen space-y-6 flex-col  w-full my-8   ">
         <h1 className="text-5xl  font-extrabold font-montserrat text-gray-400 text-center mt-8 ">Endless sky, Limitless dreams!</h1>
         <h2 className="text-gray-900 font-sans text-lg font-semibold text-center mb-8">I leverage <span id="tech">React</span>, <span id="tech">Next.js</span >, <span id="tech">Django</span>, <span id="tech">Python</span>, and <span id="tech">TailwindCSS</span> to build web applications that are fast, efficient,
              and visually compelling. My understanding of Data Science and 

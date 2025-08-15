@@ -1,0 +1,21 @@
+@keyframes slidedown{
+    0%{
+        opacity: 0;
+        transform: translate(-50%, -50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+.navbar{
+    animation: slidedown 2s linear forwards;
+     animation-delay: 2s;         /* wait 2s before starting */
+    animation-fill-mode: backwards;
+   
+    
+    
+
+
+}
