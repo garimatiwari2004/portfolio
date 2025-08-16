@@ -1,8 +1,8 @@
 import { MoveUpRight } from "lucide-react";
 export const BioSection = () => {
   return (
-    <div className=" container grid md:grid-cols-2 sm:grid-cols-1 place-content-center gap-4  mx-auto  p-4 my-16">
-      <div className="p-5 ">
+    <div className=" container  grid md:grid-cols-2 sm:grid-cols-1 place-content-center gap-4  mx-auto  p-4 my-16">
+      <div className="p-5  ">
         <h1 className="text-5xl font-extrabold md:4xl text-white font-bebas uppercase">
           Hi! I'm <span className="text-orange-500">Garima</span>. <br />
           Eager to learn, <br />
