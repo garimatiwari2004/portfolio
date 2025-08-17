@@ -5,6 +5,7 @@ import Hero from './components/hero';
 import Techstack from './components/techstack';
 import Project from './components/projects';
 import AboutMe from './components/aboutme';
+import MemoryGame from './components/memorygame';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <BioSection />
             <Techstack/>
             <Project/>
+            <MemoryGame/>
           </>
         } />
         

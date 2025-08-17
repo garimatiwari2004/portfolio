@@ -11,7 +11,7 @@ import movierec from "../assets/movierec.png";
 
 const Project = () => {
   return (
-    <div className="projectclass  w-full min-h-screen my-16  ">
+    <div className="projectclass  w-full min-h-screen  rounded-b-2xl">
       <h1 className="gradient-title text-[#d6dbd6fb] text-5xl font-extrabold font-bebas uppercase text-center mb-8">
         Exciting Projects I have worked on
       </h1>
@@ -158,7 +158,7 @@ const Project = () => {
           <div className="border group border-gray-500 px-4 pt-2  flex flex-col space-y-2 justify-between   h-full bg-gray-800 rounded-md    ">
             <h2 className="text-2xl text-white font-bold font-bebas flex gap-2 ">
               Movie Recommender System
-              <ArrowUpRight size={20} />
+              <ArrowUpRight size={20} className="group-hover:-translate-y-1" />
             </h2>
             <p className="text-gray-400 font-sm font-poppins tracking-wide  ">
               A movie recommendation system is an intelligent application that
