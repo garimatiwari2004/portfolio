@@ -41,11 +41,11 @@ const MusicControl = ({ audioref, tracks, currentTrack, setCurrentTrack }) => {
 
   return (
     <>
-      <button onClick={toggleMusic} className="fixed right-0 top-4 bg-red-300 text-black px-4 py-2 rounded-l-full">
+      <button onClick={toggleMusic} className="fixed right-0 top-4 bg-red-300 hover:opacity-100 opacity-40 text-black px-4 py-2 rounded-l-full">
         {isPlaying ? "Pause" : "Play"}
       </button>
 
-      <button onClick={() => setShowTracks(!showTracks)} className="fixed right-0 top-12 bg-blue-400 px-4 py-2 rounded-l-full">
+      <button onClick={() => setShowTracks(!showTracks)} className="fixed right-0 top-14 hover:opacity-100 opacity-40 bg-blue-400 px-4 py-2 rounded-l-full">
         Change Track
       </button>
 

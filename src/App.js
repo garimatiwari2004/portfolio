@@ -23,9 +23,9 @@ function App() {
   const [currentTrack, setCurrentTrack] = useState(0);
 
   const tracks = [
-    { title: "Track1", src: co2 },
+    { title: "Track1", src: slow },
     { title: "Track2", src: kabhikabhiaditi },
-    { title: "Track3", src: slow },
+    { title: "Track3", src: co2 },
     { title: "Track4", src: sweetcreature },
   ];
 
