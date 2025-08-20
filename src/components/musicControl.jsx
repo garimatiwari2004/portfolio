@@ -36,7 +36,7 @@ const MusicControl = ({ audioref, tracks, currentTrack, setCurrentTrack }) => {
 
   const selectTrack = (index) => {
     setCurrentTrack(index);
-    setIsPlaying(false); // will update when track is loaded
+    setIsPlaying(false); 
   };
 
   return (

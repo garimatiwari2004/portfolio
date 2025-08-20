@@ -18,7 +18,7 @@ const Project = () => {
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 items-stretch gap-6 gap-y-10 container mx-auto justify-center   p-4">
         <a
           href="https://sensai-iota-beige.vercel.app/"
-          className="inline-flex items-center gap-1 hover:text-yellow-400 transition hover:-translate-y-1"
+          className="inline-flex items-center gap-1 hover:text-yellow-400 transition "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -61,7 +61,7 @@ const Project = () => {
         </a>
         <a
           href="https://garimatiwari2004.pythonanywhere.com/"
-          className="inline-flex items-center gap-1 hover:text-yellow-400 transition hover:-translate-y-1"
+          className="inline-flex items-center gap-1 hover:text-yellow-400 transition "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -107,7 +107,7 @@ const Project = () => {
         </a>
         <a
           href="https://sparkathon-f1lx.vercel.app/"
-          className="inline-flex items-center gap-1 hover:text-yellow-400 transition hover:-translate-y-1"
+          className="inline-flex items-center gap-1 hover:text-yellow-400 transition "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -151,7 +151,7 @@ const Project = () => {
         </a>
         <a
           href="https://github.com/garimatiwari2004/Movie-Recommender-System-Movierec"
-          className="inline-flex items-center gap-1 hover:text-yellow-400 transition hover:-translate-y-1"
+          className="inline-flex items-center gap-1 hover:text-yellow-400"
           target="_blank"
           rel="noopener noreferrer"
         >

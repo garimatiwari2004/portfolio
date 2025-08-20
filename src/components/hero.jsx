@@ -1,4 +1,5 @@
-import "../styles/tag.css"
+import Spline from "@splinetool/react-spline";
+import "../styles/tag.css";
 
 const Hero = () => {
   return (
@@ -6,9 +7,12 @@ const Hero = () => {
       <div className="  text-center ">
         <h1 className="text-white md:text-5xl text-4xl font-extrabold  tag">
           New in the game,
-          <br/>
-           Not in the Grind
+          <br />
+          Not in the Grind
         </h1>
+        <div>
+         
+        </div>
       </div>
     </div>
   );
