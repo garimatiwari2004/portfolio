@@ -18,7 +18,7 @@ import sweetcreature from "./assets/audio/sweetcreature.mp3";
 
 function App() {
   const [askMusic, setAskMusic] = useState(true);
-  const [playMusic, setPlayMusic] = useState(false); // ✅ new state
+  const [playMusic, setPlayMusic] = useState(false); 
   const audioref = useRef(null);
   const [currentTrack, setCurrentTrack] = useState(0);
 
