@@ -9,12 +9,14 @@ import Project from "./components/projects";
 import AboutMe from "./components/aboutme";
 import MemoryGame from "./components/memorygame";
 import MusicPrompt from "./components/musicprompt";
-import MusicControl from "./components/musiccontrol";
+
+
 
 import co2 from "./assets/audio/co2.mp3";
 import kabhikabhiaditi from "./assets/audio/kabhikabhiaditi.mp3";
 import slow from "./assets/audio/slow.mp3";
 import sweetcreature from "./assets/audio/sweetcreature.mp3";
+import MusicControl from "./components/musicControl";
 
 function App() {
   const [askMusic, setAskMusic] = useState(true);
