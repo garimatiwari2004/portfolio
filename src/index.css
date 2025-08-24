@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 body{
-     background-image:
+    background-image:
     repeating-linear-gradient(0deg, rgba(119, 115, 115,0.3) 0px,rgba(96, 95, 95,0.3) 0px, transparent 1px, transparent 100px),
     repeating-linear-gradient(90deg, rgba(119, 115, 115,0.3) 0px, rgba(96, 95, 95,0.3) 0px, transparent 3px, transparent 70px),
     radial-gradient(circle at center, rgba(0,0,0,0) 150px, rgba(0,0,0,0.8) 80%),

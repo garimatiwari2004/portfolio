@@ -5,9 +5,9 @@ import straycat from "../assets/straycat.jpg";
 import manmonk from "../assets/manmonk.jpg";
 import oned from "../assets/oned.jpg";
 import mabetapin from "../assets/mabetapin.jpg";
-import kallukaliamatki from "../assets/kallukaliamatki.jpg";
+import allmine from "../assets/allmine.jpeg";
 import manali from "../assets/manali.jpg";
-import garima from "../assets/garima.jpg";
+import outfit from "../assets/outfit.jpeg";
 
 const MemoryGame = () => {
   const cardValues = [
@@ -16,9 +16,9 @@ const MemoryGame = () => {
     { src: manmonk, matched: false },
     { src: pookiedog, matched: false },
     { src: straycat, matched: false },
-    { src: kallukaliamatki, matched: false },
+    { src: allmine, matched: false },
     { src: manali, matched: false },
-    { src: garima, matched: false },
+    { src: outfit, matched: false },
   ];
   const [input, setInput] = useState("");
 
@@ -68,10 +68,10 @@ const MemoryGame = () => {
     }
   }, [first, sec]);
   return (
-    <div className=" bg-gradient-to-r from-gray-900 to-gray-950  mt-16 py-10  flex flex-col justify-center gap-6">
+    <div className=" bg-gradient-to-r from-gray-900 to-gray-950  w-screen  mt-16 py-10  flex flex-col justify-center gap-6  ">
       
       <h1 className="text-white text-4xl text-center ">Memory Match Game</h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <button
           onClick={shufflecards}
           className="px-2 py-1 border-none rounded-md bg-green-700 text-white font-semibold inline-block"
@@ -132,7 +132,9 @@ const MemoryGame = () => {
           })};
         </div>
       </div>
-      <p className="text-white text-center text-4xl">Turns: {turns}</p>
+      <div className="flex justify-center items-center">
+      < button className="text-white text-center bg-blue-400 p-2  rounded-lg">Turns: {turns}</button>
+      </div>
     </div>
   );
 };

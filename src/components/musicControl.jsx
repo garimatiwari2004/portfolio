@@ -41,12 +41,12 @@ const MusicControl = ({ audioref, tracks, currentTrack, setCurrentTrack }) => {
 
   return (
     <>
-      <button onClick={toggleMusic} className="fixed right-0 top-4  bg-red-300 hover:opacity-100 opacity-40 text-black px-4 py-2 rounded-l-full">
+      <button onClick={toggleMusic} className="fixed right-0 top-4 z-[500] sm:opacity-70 bg-red-300 hover:opacity-100 md:opacity-40 text-black px-4 py-2 rounded-l-full">
         {isPlaying ? "Pause" : "Play"}
       </button>
 
-      <button onClick={() => setShowTracks(!showTracks)} className="fixed right-0 top-14  hover:opacity-100 opacity-40 bg-blue-400 px-4 py-2 rounded-l-full">
-        Change Track
+      <button onClick={() => setShowTracks(!showTracks)} className="fixed right-0 top-14 z-[500] sm:opacity-70 md:opacity-40 hover:opacity-100  bg-blue-400 px-4 py-2 rounded-l-full">
+        Next
       </button>
 
       {showTracks && (
@@ -55,7 +55,7 @@ const MusicControl = ({ audioref, tracks, currentTrack, setCurrentTrack }) => {
             <button
               key={index}
               onClick={() => selectTrack(index)}
-              className={`px-2 py-1 rounded ${currentTrack === index ? "bg-green-400" : "bg-gray-300"}`}
+              className={`px-2 py-1 z-[500] rounded ${currentTrack === index ? "bg-green-400" : "bg-gray-300"}`}
             >
               {track.title}
             </button>

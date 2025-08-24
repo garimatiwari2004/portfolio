@@ -12,7 +12,7 @@ import javascript from "../assets/javascript.png";
 
 const Techstack=()=>{
     return(
-        <div className=" tech w-full bg-white my-16 py-20  px-5  ">
+        <div className=" tech  bg-white my-16 py-20  px-5 w-screen ">
     
         <div className="container mx-auto flex justify-center items-center max-h-screen space-y-6 flex-col  w-full my-8   ">
         <h1 className="text-5xl  font-extrabold font-montserrat text-gray-400 text-center mt-8 ">Endless sky, Limitless dreams!</h1>

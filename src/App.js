@@ -17,6 +17,8 @@ import kabhikabhiaditi from "./assets/audio/kabhikabhiaditi.mp3";
 import slow from "./assets/audio/slow.mp3";
 import sweetcreature from "./assets/audio/sweetcreature.mp3";
 import MusicControl from "./components/musicControl";
+import Contact from "./components/contact";
+import ContactCard from "./components/contactcard";
 
 function App() {
   const [askMusic, setAskMusic] = useState(true);
@@ -58,11 +60,14 @@ function App() {
                   <Techstack />
                   <Project />
                   <MemoryGame />
+                  <Contact/>
+                  {/* <ContactCard/> */}
                 </>
               }
             />
             <Route path="/projects" element={<Project />} />
             <Route path="/about" element={<AboutMe />} />
+            <Route path="/contact" element={<Contact/>}/>
           </Routes>
 
        
