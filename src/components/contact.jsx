@@ -12,7 +12,7 @@ const Contact = () => {
         <div className=" flex justify-center items-center w-full   ">
           <img src={logo} alt="logo" className=" opacity-50 rounded-lg z-50 " />
         </div>
-        <div className=" flex flex-col justify-center  items-center  p-2  z-50 ">
+        <div className=" flex flex-col justify-center  items-center  p-2  z-50 mt-10 ">
           <p className="text-white">
             <b className="text-yellow-200">Don’t know what you need?</b> I may
             not have all the answers yet, but I can help you outline simple
@@ -81,7 +81,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className=" z-50 ">
+        <div className=" z-50 mb-8 ">
       <a
         href="mailto:garimatiwari1803@gmail.com"
         className="block text-white text-xl hover:underline hover:text-yellow-300  hover:cursor-pointer z-50 hover:scale-y-150"
