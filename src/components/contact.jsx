@@ -6,13 +6,13 @@ import linkedin from "../assets/linkedin.png";
 
 const Contact = () => {
   return (
-    <div className="socardss relative flex flex-col justify-center items-center ">
+    <div className="socardss relative  ">
       <div className="overlay absolute bg-gray-800 w-full h-full opacity-65 z-55"></div>
       <div className=" grid md:grid-cols-2 sm:grid-cols-1 place-content-center place-items-center    ">
         <div className=" flex justify-center items-center w-full   ">
           <img src={logo} alt="logo" className=" opacity-50 rounded-lg z-50 " />
         </div>
-        <div className=" flex flex-col justify-center  items-center  p-2  z-50 mt-8">
+        <div className=" flex flex-col justify-center  items-center  p-2  z-50 ">
           <p className="text-white">
             <b className="text-yellow-200">Don’t know what you need?</b> I may
             not have all the answers yet, but I can help you outline simple
@@ -37,7 +37,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <div className="mt-5 ">
+      <div className="mt-16 flex flex-col justify-center items-center">
         <div className="socards flex flex-wrap justify-center gap-8 p-4     ">
           <div className="card-container  w-fit  border border-dashed border-gray-800  rounded-lg p-2 ">
             <a
@@ -81,8 +81,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="mt-10  z-50 ">
+        <div className=" z-50 ">
       <a
         href="mailto:garimatiwari1803@gmail.com"
         className="block text-white text-xl hover:underline hover:text-yellow-300  hover:cursor-pointer z-50 hover:scale-y-150"
@@ -90,6 +89,8 @@ const Contact = () => {
         Reach out to me on mail !
       </a>
       </div>
+      </div>
+      
     </div>
   );
 };
